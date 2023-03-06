@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: 'Urbanist', sans-serif;
+  color: #555;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.body {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* chatt previews / list */
+.chatt-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.chatt-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.chatt-preview a {
+  text-decoration: none;
+}
+.btn-check {
+  display: flex;
+  margin: 50px auto;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* blog details page */
+.chatt-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.chatt-details div {
+  margin: 20px 0;
+}
+/* create new blog form */
+.post {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.post label {
+  text-align: left;
+  display: block;
+}
+.post h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.post input,
+.post textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 10px 0px;
+  border: 1px solid #dede;
+  box-sizing: border-box;
+  display: block;
+}
+.chatt-details button,
+.post button {
+  background: darkgreen;
+  color: #f2f2f2;
+  border: 0;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
